@@ -1,0 +1,83 @@
+// app global css in Sass form
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap')
+
+body, button, input
+  font-family: 'Manrope', sans-serif
+  font-weight: 400
+  font-size: 16px
+  line-height: 20px
+
+h1, h2, h3
+  font-style: normal
+  font-weight: 700
+  font-size: 40px
+  line-height: 48px
+  display: flex
+  align-items: center
+  text-transform: uppercase
+  margin: 0
+
+h2
+  font-size: 20px
+  line-height: 28px
+
+h3 
+  font-weight: 500
+  font-size: 20px
+  line-height: 24px
+
+#q-app
+  font-family: 'Manrope', sans-serif
+  background: $blue-light
+  color: $dark
+
+.text-primary
+  color: $dark !important
+
+.q-layout
+  justify-content: center
+
+.q-toolbar,
+.q-tabs,
+.q-page-container
+  margin: 0 auto
+  max-width: 800px
+  width: 100%
+
+.q-header
+  background: #FFF2E9
+.q-footer
+  background: #fff
+
+.q-page
+  padding: 20px 20px
+  max-height: 896px
+
+.q-btn
+  font-style: normal
+  font-weight: 800
+  font-size: 18px
+  line-height: 20px
+  display: flex
+  align-items: center
+  color: $dark
+  text-transform: none
+  
+.q-input input
+  font-weight: 400
+  font-size: 14px
+  line-height: 20px
+  color: $input-text
+
+.q-input input::placeholder
+  color: $input-text-placeholder
+
+.help-link
+  font-weight: 500
+  font-size: 14px
+  line-height: 20px
+  color: $dark
+  text-decoration-line: underline
+
+.help-link a
+  color: $dark
